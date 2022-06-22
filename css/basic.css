@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol,dl,dt,dd{ list-style: none;}
+a{ text-decoration: none; color: #353535;}
+a:hover{
+    color: teal;
+}
+
+/* common */
+
+.container{ width: 1200px; margin: 0 auto;}
+
+.d-flex{ display: flex;}
+.align-center{ align-items: center;}
+.justify-content-between{ justify-content: space-between;}
+.margin-auto{ margin: 0 auto;}
+
+.p-rel{ position: relative;}
+.p-abs{ position: absolute;}
+
+.t-center{text-align: center;}
+.t-left{text-align: left;}
+.t-right{text-align: right;}
+
+.h100{height: 100px;}
+.h200{height: 200px;}
+.h300{height: 300px;}
+
+/* header */
+
+#gnb > li{padding: 0 20px;}
+#gnb > li > a{ font-size: 25px;}
+/* li가 아닌 a에 padding을 주면 클릭 지점이 넓어져 편의성이 좋다. */
+#gnb ul{
+    border: 1px solid #333333;
+    min-width: 90px;
+    padding: 0 0 0 20px;
+    left: -20px;
+    }
+
+
+
+/* footer */
